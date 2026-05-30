@@ -11,7 +11,7 @@ It serves as a clean landing page to explore our custom **SmartDMA** and **Visio
 ## 🖼️ Poster & Presentation
 You can find the high-resolution PDF of the poster in the [`/poster`](./poster) directory. 
 
-*(Optional: Add a preview image of your poster here by uploading a `poster.png` and linking it: `![Poster Preview](./poster/poster.png)`)*
+`![Poster Preview](./poster/1w_envelope_riscv_poster_preview.png)`)*
 
 ## 🚀 Abstract
 Deploying high-performance AI inference (like real-time object detection or high-res vision) on micro-aerial vehicles requires a strict 1W power budget to preserve flight stability. Due to open-source hardware sovereignty trends, mature nodes like SkyWater 130nm are increasingly relevant. 
@@ -24,7 +24,7 @@ To make our contributions easily accessible, this repository isolates our custom
 * **`/hardware`**: Contains the Chisel/Verilog source code for our custom TileLink DMA (`SmartDMA`) and the memory-mapped trigger module (`VisionControl`).
 * **`/software`**: Bare-metal C scripts used for the VisDrone and high-res vision evaluation, utilizing the diplomatic PLIC interrupts.
 * **`/quantization`**: Python scripts (ONNX Runtime / Apache TVM) for the Post-Training Quantization (PTQ) pipeline down to INT8 (achieving a 74.75% memory footprint reduction).
-* **`/poster`**: The LaTeX source code and final PDF of the poster.
+* **`/poster`**: final PDF and preview png of the poster.
 
 ## 🔗 Full Chipyard Environment
 This artifact repository contains only the standalone modules for readability. For the complete, compilable SoC environment including the RISC-V Rocket Core, Gemmini, and all submodules, please visit our full development fork:
