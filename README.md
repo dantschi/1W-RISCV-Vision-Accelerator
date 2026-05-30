@@ -11,7 +11,7 @@ It serves as a clean landing page to explore our custom **SmartDMA** and **Visio
 ## 🖼️ Poster & Presentation
 You can find the high-resolution PDF of the poster in the [`/poster`](./poster) directory. 
 
-`![Poster Preview](./poster/1w_envelope_riscv_poster_preview.png)`)*
+![Poster Preview](./poster/1w_envelope_riscv_poster_preview.png)
 
 ## 🚀 Abstract
 Deploying high-performance AI inference (like real-time object detection or high-res vision) on micro-aerial vehicles requires a strict 1W power budget to preserve flight stability. Due to open-source hardware sovereignty trends, mature nodes like SkyWater 130nm are increasingly relevant. 
